@@ -81,8 +81,6 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
 #warning Incomplete method implementation.
-    // Return the number of rows in the section.
-    NSLog(@"count is %d" , [_anArrayOfBooks count]);
     return [_anArrayOfBooks count];
 }
 

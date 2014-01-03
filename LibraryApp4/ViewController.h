@@ -14,7 +14,6 @@
 #import "Shelf.h"
 #import "Library.h"
 
-
 @interface ViewController : UIViewController
 
 @property (nonatomic,strong) NSMutableArray* listOfLibraries;
