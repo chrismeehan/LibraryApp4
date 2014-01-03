@@ -24,7 +24,13 @@
 		20993CC618771AA800DC635A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20993CC418771AA800DC635A /* InfoPlist.strings */; };
 		20993CC918771AA800DC635A /* LibraryApp4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20993CC818771AA800DC635A /* LibraryApp4Tests.m */; };
 		20993CEA18771CEC00DC635A /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 20993CE918771CEC00DC635A /* Book.m */; };
-		20993CED18771D0100DC635A /* TestFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 20993CEC18771D0000DC635A /* TestFile.m */; };
+		20993D031877264C00DC635A /* Shelf.m in Sources */ = {isa = PBXBuildFile; fileRef = 20993D021877264C00DC635A /* Shelf.m */; };
+		20993D061877266400DC635A /* Library.m in Sources */ = {isa = PBXBuildFile; fileRef = 20993D051877266400DC635A /* Library.m */; };
+		20993D0D1877276E00DC635A /* TableListOfLibraries.m in Sources */ = {isa = PBXBuildFile; fileRef = 20993D0C1877276D00DC635A /* TableListOfLibraries.m */; };
+		20993D10187727A300DC635A /* TableListOfLibrarysShelves.m in Sources */ = {isa = PBXBuildFile; fileRef = 20993D0F187727A200DC635A /* TableListOfLibrarysShelves.m */; };
+		20993D13187727C700DC635A /* TableListOfShelvesBooks.m in Sources */ = {isa = PBXBuildFile; fileRef = 20993D12187727C600DC635A /* TableListOfShelvesBooks.m */; };
+		20993D16187728B700DC635A /* BookAddingControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20993D15187728B500DC635A /* BookAddingControllerViewController.m */; };
+		20993D191877294D00DC635A /* ReadBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 20993D181877294A00DC635A /* ReadBook.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,8 +68,20 @@
 		20993CC818771AA800DC635A /* LibraryApp4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryApp4Tests.m; sourceTree = "<group>"; };
 		20993CE818771CEC00DC635A /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
 		20993CE918771CEC00DC635A /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
-		20993CEB18771D0000DC635A /* TestFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFile.h; sourceTree = "<group>"; };
-		20993CEC18771D0000DC635A /* TestFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFile.m; sourceTree = "<group>"; };
+		20993D011877264C00DC635A /* Shelf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shelf.h; sourceTree = "<group>"; };
+		20993D021877264C00DC635A /* Shelf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shelf.m; sourceTree = "<group>"; };
+		20993D041877266400DC635A /* Library.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Library.h; sourceTree = "<group>"; };
+		20993D051877266400DC635A /* Library.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Library.m; sourceTree = "<group>"; };
+		20993D0B1877276C00DC635A /* TableListOfLibraries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableListOfLibraries.h; sourceTree = "<group>"; };
+		20993D0C1877276D00DC635A /* TableListOfLibraries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableListOfLibraries.m; sourceTree = "<group>"; };
+		20993D0E187727A100DC635A /* TableListOfLibrarysShelves.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableListOfLibrarysShelves.h; sourceTree = "<group>"; };
+		20993D0F187727A200DC635A /* TableListOfLibrarysShelves.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableListOfLibrarysShelves.m; sourceTree = "<group>"; };
+		20993D11187727C600DC635A /* TableListOfShelvesBooks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableListOfShelvesBooks.h; sourceTree = "<group>"; };
+		20993D12187727C600DC635A /* TableListOfShelvesBooks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableListOfShelvesBooks.m; sourceTree = "<group>"; };
+		20993D14187728B400DC635A /* BookAddingControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookAddingControllerViewController.h; sourceTree = "<group>"; };
+		20993D15187728B500DC635A /* BookAddingControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookAddingControllerViewController.m; sourceTree = "<group>"; };
+		20993D171877294900DC635A /* ReadBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadBook.h; sourceTree = "<group>"; };
+		20993D181877294A00DC635A /* ReadBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadBook.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +147,16 @@
 				20993CAF18771AA800DC635A /* MainStoryboard.storyboard */,
 				20993CB218771AA800DC635A /* ViewController.h */,
 				20993CB318771AA800DC635A /* ViewController.m */,
+				20993D0B1877276C00DC635A /* TableListOfLibraries.h */,
+				20993D0C1877276D00DC635A /* TableListOfLibraries.m */,
+				20993D0E187727A100DC635A /* TableListOfLibrarysShelves.h */,
+				20993D0F187727A200DC635A /* TableListOfLibrarysShelves.m */,
+				20993D11187727C600DC635A /* TableListOfShelvesBooks.h */,
+				20993D12187727C600DC635A /* TableListOfShelvesBooks.m */,
+				20993D171877294900DC635A /* ReadBook.h */,
+				20993D181877294A00DC635A /* ReadBook.m */,
+				20993D14187728B400DC635A /* BookAddingControllerViewController.h */,
+				20993D15187728B500DC635A /* BookAddingControllerViewController.m */,
 				20993C9E18771AA800DC635A /* Supporting Files */,
 			);
 			path = LibraryApp4;
@@ -172,8 +200,10 @@
 			children = (
 				20993CE818771CEC00DC635A /* Book.h */,
 				20993CE918771CEC00DC635A /* Book.m */,
-				20993CEB18771D0000DC635A /* TestFile.h */,
-				20993CEC18771D0000DC635A /* TestFile.m */,
+				20993D011877264C00DC635A /* Shelf.h */,
+				20993D021877264C00DC635A /* Shelf.m */,
+				20993D041877266400DC635A /* Library.h */,
+				20993D051877266400DC635A /* Library.m */,
 			);
 			name = ThreeClasses;
 			sourceTree = "<group>";
@@ -292,7 +322,13 @@
 				20993CA818771AA800DC635A /* AppDelegate.m in Sources */,
 				20993CB418771AA800DC635A /* ViewController.m in Sources */,
 				20993CEA18771CEC00DC635A /* Book.m in Sources */,
-				20993CED18771D0100DC635A /* TestFile.m in Sources */,
+				20993D031877264C00DC635A /* Shelf.m in Sources */,
+				20993D061877266400DC635A /* Library.m in Sources */,
+				20993D0D1877276E00DC635A /* TableListOfLibraries.m in Sources */,
+				20993D10187727A300DC635A /* TableListOfLibrarysShelves.m in Sources */,
+				20993D13187727C700DC635A /* TableListOfShelvesBooks.m in Sources */,
+				20993D16187728B700DC635A /* BookAddingControllerViewController.m in Sources */,
+				20993D191877294D00DC635A /* ReadBook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
