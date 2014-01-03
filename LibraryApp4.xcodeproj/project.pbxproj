@@ -23,7 +23,8 @@
 		20993CBE18771AA800DC635A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20993C9918771AA700DC635A /* Foundation.framework */; };
 		20993CC618771AA800DC635A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20993CC418771AA800DC635A /* InfoPlist.strings */; };
 		20993CC918771AA800DC635A /* LibraryApp4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20993CC818771AA800DC635A /* LibraryApp4Tests.m */; };
-		20993CDE18771BF200DC635A /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 20993CDD18771BF200DC635A /* Book.m */; };
+		20993CEA18771CEC00DC635A /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 20993CE918771CEC00DC635A /* Book.m */; };
+		20993CED18771D0100DC635A /* TestFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 20993CEC18771D0000DC635A /* TestFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +60,10 @@
 		20993CC518771AA800DC635A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		20993CC718771AA800DC635A /* LibraryApp4Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryApp4Tests.h; sourceTree = "<group>"; };
 		20993CC818771AA800DC635A /* LibraryApp4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryApp4Tests.m; sourceTree = "<group>"; };
-		20993CDC18771BF200DC635A /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
-		20993CDD18771BF200DC635A /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		20993CE818771CEC00DC635A /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		20993CE918771CEC00DC635A /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		20993CEB18771D0000DC635A /* TestFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFile.h; sourceTree = "<group>"; };
+		20993CEC18771D0000DC635A /* TestFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,8 +170,10 @@
 		20993CDA18771BC600DC635A /* ThreeClasses */ = {
 			isa = PBXGroup;
 			children = (
-				20993CDC18771BF200DC635A /* Book.h */,
-				20993CDD18771BF200DC635A /* Book.m */,
+				20993CE818771CEC00DC635A /* Book.h */,
+				20993CE918771CEC00DC635A /* Book.m */,
+				20993CEB18771D0000DC635A /* TestFile.h */,
+				20993CEC18771D0000DC635A /* TestFile.m */,
 			);
 			name = ThreeClasses;
 			sourceTree = "<group>";
@@ -286,7 +291,8 @@
 				20993CA418771AA800DC635A /* main.m in Sources */,
 				20993CA818771AA800DC635A /* AppDelegate.m in Sources */,
 				20993CB418771AA800DC635A /* ViewController.m in Sources */,
-				20993CDE18771BF200DC635A /* Book.m in Sources */,
+				20993CEA18771CEC00DC635A /* Book.m in Sources */,
+				20993CED18771D0100DC635A /* TestFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
