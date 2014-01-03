@@ -23,6 +23,7 @@
 		20993CBE18771AA800DC635A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20993C9918771AA700DC635A /* Foundation.framework */; };
 		20993CC618771AA800DC635A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20993CC418771AA800DC635A /* InfoPlist.strings */; };
 		20993CC918771AA800DC635A /* LibraryApp4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20993CC818771AA800DC635A /* LibraryApp4Tests.m */; };
+		20993CDE18771BF200DC635A /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 20993CDD18771BF200DC635A /* Book.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		20993CC518771AA800DC635A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		20993CC718771AA800DC635A /* LibraryApp4Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryApp4Tests.h; sourceTree = "<group>"; };
 		20993CC818771AA800DC635A /* LibraryApp4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryApp4Tests.m; sourceTree = "<group>"; };
+		20993CDC18771BF200DC635A /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		20993CDD18771BF200DC635A /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,7 @@
 		20993C9D18771AA800DC635A /* LibraryApp4 */ = {
 			isa = PBXGroup;
 			children = (
+				20993CDA18771BC600DC635A /* ThreeClasses */,
 				20993CA618771AA800DC635A /* AppDelegate.h */,
 				20993CA718771AA800DC635A /* AppDelegate.m */,
 				20993CAF18771AA800DC635A /* MainStoryboard.storyboard */,
@@ -158,6 +162,15 @@
 				20993CC418771AA800DC635A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20993CDA18771BC600DC635A /* ThreeClasses */ = {
+			isa = PBXGroup;
+			children = (
+				20993CDC18771BF200DC635A /* Book.h */,
+				20993CDD18771BF200DC635A /* Book.m */,
+			);
+			name = ThreeClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				20993CA418771AA800DC635A /* main.m in Sources */,
 				20993CA818771AA800DC635A /* AppDelegate.m in Sources */,
 				20993CB418771AA800DC635A /* ViewController.m in Sources */,
+				20993CDE18771BF200DC635A /* Book.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +461,7 @@
 				20993CCE18771AA800DC635A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20993CCF18771AA800DC635A /* Build configuration list for PBXNativeTarget "LibraryApp4Tests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +470,7 @@
 				20993CD118771AA800DC635A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
